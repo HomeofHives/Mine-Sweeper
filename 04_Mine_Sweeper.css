@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+* {
+    font-family: "Hubballi", sans-serif;
+}
+
+body {
+    background-color: #74b72e;
+}
+
+.grid {
+    background-color: #03ac13;
+
+    margin: auto auto;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    padding-right: 0px;
+
+    border: 5px solid green;
+    border-radius: 10px;
+
+    height: 690px;
+    width: 690px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /* box-shadow: 1px 1px 10px #ffe4c4; */
+    box-shadow: 1px 1px 10px #99edc3;
+}
+
+
+.grid div {
+    text-align: center;
+
+    margin: 2px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+    height: 60px;
+    width: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 1px 1px 25px #aef359;
+}
+
+.checked {
+    background-color:#b2ac88;
+    /* background-color:#a67b5b; */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: red;
+}
+
+.bomb {
+    /* background-color: #e3bc9a; */
+    background-color: #03ac13;
+    font-size: 2rem;
+}
+
+.grid div:hover {
+    background-color: beige;
+    transition: 100ms;
+}
+
+.checked:hover {
+    color: rgb(70, 70, 70);
+    transition: 100ms;
+}
+
+.even{
+    background-color: #03ac13;
+}
